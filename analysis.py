@@ -18,7 +18,7 @@ total_nc = nc_data.groupby('Brand')['Sales Dollars'].sum().sort_values(ascending
 #plot 
 plt.figure(figsize=(12, 8))
 total_nc.plot(kind='bar', color='#253846')
-plt.title('A&F Total Sales by Brand in North Carolina (in Millions of Dollars)', fontsize=14)
+plt.title('A&F Total Sales by Brand in North Carolina in 2017 April-August (in Millions of Dollars)', fontsize=14)
 plt.ylabel('Sales in Millions of Dollars', fontsize=12)
 plt.xlabel('Brand', fontsize=12)
 plt.xticks(rotation=45)
